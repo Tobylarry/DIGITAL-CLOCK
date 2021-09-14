@@ -197,6 +197,19 @@
             .socials {
                 margin-top: 390px;
             }
+               .copyrights {
+            color: hsl(237, 18%, 59%);
+            bottom: 0;
+            position: relative;
+            font-size: 8px;
+            line-height: 20px;
+        }
+                 .fa {
+                background-color: hsl(237, 18%, 59%);
+                margin-right: 20px;
+                padding: 8px;
+                font-size: 20px;
+            }
         }
         
         @media screen and (min-width: 900px) and (max-width: 1400px) {
