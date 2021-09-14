@@ -134,7 +134,7 @@
                 height: auto;
             }
             .wrapper {
-                padding: 25px;
+                padding: 60px;
             }
             .timer .days {
                 width: 120px;
@@ -144,7 +144,7 @@
                 margin-right: 20px;
                 position: relative;
                 overflow: hidden;
-                border-radius: 10px;
+                border-radius: 5px;
             }
             .timer2 .days {
                 width: 120px;
@@ -154,24 +154,24 @@
                 margin-right: 20px;
                 position: relative;
                 margin-top: 1px;
-                border-radius: 10px;
+                border-radius: 5px;
                 overflow: hidden;
             }
             .getd {
-                font-size: 45px;
+                font-size: 35px;
                 text-align: center;
             }
             .timer .getd {
                 background-size: cover;
                 border-radius: 10px;
-                margin-bottom: -30px;
+                margin-bottom: -22.5px;
                 padding-top: 14px;
                 letter-spacing: 5px;
             }
             .timer2 .getd {
                 background-size: cover;
                 border-radius: 10px;
-                margin-top: -30px;
+                margin-top: -22.5px;
                 padding-bottom: 14px;
                 letter-spacing: 5px;
             }
@@ -215,8 +215,15 @@
             }
             h1 {
                 margin-top: 40px;
-                font-size: 14px;
+                font-size: 12px;
                 margin-bottom: 20px;
+            }
+            .labels div p {
+                letter-spacing: 5px;
+                font-size: 8px;
+            }
+            p {
+                font-size: 9px;
             }
         }
         
