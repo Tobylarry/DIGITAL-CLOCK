@@ -6,7 +6,7 @@ var mins = document.getElementById('mins');
 var mins2 = document.getElementById('mins2');
 var sec = document.getElementById('sec');
 var sec2 = document.getElementById('sec2');
-setInterval(getDatee)
+setInterval(getDatee, 1000)
 
 
 function getDatee() {
