@@ -8,7 +8,7 @@ var sec = document.getElementById('sec');
 var sec2 = document.getElementById('sec2');
 var month = document.getElementById('months');
 var month2 = document.getElementById('months2');
-setInterval(getDatee, 1000)
+setInterval(getDatee)
 
 
 function getDatee() {
@@ -22,7 +22,9 @@ function getDatee() {
     sec.innerHTML = d.getSeconds()
     sec2.innerHTML = d.getSeconds()
     getMont()
+
 }
+
 function getMont() {
     let d = new Date();
     month.innerHTML = d.getMonth() + 1;
