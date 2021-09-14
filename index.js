@@ -19,4 +19,10 @@ function getDatee() {
     mins2.innerHTML = d.getMinutes()
     sec.innerHTML = d.getSeconds()
     sec2.innerHTML = d.getSeconds()
+    getMont()
+}
+function getMont() {
+    let d = new Date();
+    month.innerHTML = d.getMonth() + 1;
+    month2.innerHTML = d.getMonth() + 1;
 }
