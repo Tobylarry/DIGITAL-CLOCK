@@ -6,6 +6,8 @@ var mins = document.getElementById('mins');
 var mins2 = document.getElementById('mins2');
 var sec = document.getElementById('sec');
 var sec2 = document.getElementById('sec2');
+var month = document.getElementById('months');
+var month2 = document.getElementById('months2');
 setInterval(getDatee, 1000)
 
 
